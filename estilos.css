@@ -1,0 +1,22 @@
+*{
+padding: 0;
+
+}
+
+.ima{
+    display: flex ; 
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.foto{
+    
+    transition: transform .35s ease;
+}
+.foto:hover{
+    transform: scale(1.08);
+}
+
+
+
+
