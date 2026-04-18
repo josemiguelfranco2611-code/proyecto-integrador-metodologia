@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Agendamiento</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="formulario">
+    <h2>Sistema de Agendamiento</h2>
+
+    <form>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="fecha">Fecha de entrega</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="descripcion">Descripción del pedido</label>
+      <textarea id="descripcion" name="descripcion" required></textarea>
+
+      <label for="celular">Celular</label>
+      <input type="tel" id="celular" name="celular" required pattern="[0-9]{10}" placeholder="Ej: 3001234567">
+
+      
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+
+</body>
+</html>
